@@ -1,0 +1,26 @@
+//Perfiles de depuración (debug). Útil para ejecutar y poner puntos de ruptura
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: script_basico",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/script_basico.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--nombre",
+        "Ana",
+        "--repeticiones",
+        "2"
+      ]
+    },
+    {
+      "name": "Python: demo_uso",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/demo_uso.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+#pytest>=8.0 # Opcional si queremos incluir tests
+ipykernel
+jupyter
